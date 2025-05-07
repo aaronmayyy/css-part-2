@@ -1,6 +1,10 @@
 <html>
 <head>
 <style>
+	@font-face{
+	font-family: 'narutoy';
+	src: url('fonts\njnaruto.ttf') format('truetype');
+}
 	body{
 		
 
@@ -18,6 +22,10 @@
 	.gaara{
 		background-color: #70A33C;
 		padding: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	
 		
 		
 }
@@ -83,6 +91,19 @@
 	.sakura a{
 	margin: 0 15px;
 	color: black;
+}
+
+	.minato{
+	flex-direction: column;
+	display: flex;
+	
+	
+	background-color: #70A33C;
+}
+	.minato.reverse{
+	flex-direction: row-reverse;
+	
+}
 		
 </style>
 
@@ -100,33 +121,60 @@
 <div class= "kakashi">
 	<h1 style="font-size: 60px;"> MY ABILITY </h1>
 </div>
+</center>
 <div class= "gaara">
         
-	<img src="Image/Logo1.png" height=15%> </img>
-	<h1> BASIC BASKETBALL FUNDAMENTALS </h1>
-	<p style="font-size: 30px;"> Basketball fundamentals are the essential skills and techniques that form the foundation for playing the game effectively. Mastering these basics allows players to improve their overall game and contribute to their team's success.  </p>
+	<img src="Image/Logo1.png" height= 200px> </img>
+	<div class= "minato" style="max-width: 650px;">
+	<h1 style="text-align: left;font-size: 30px;"> BASIC BASKETBALL FUNDAMENTALS
+	</h1>
+	<p style="font-size: 20px;"> Basketball fundamentals are the essential skills and techniques that form the foundation for playing the game effectively. Mastering these basics allows players to improve their overall game and contribute to their team's success.  </p>
+	</div>
+	
+	
+	
 	
 </div>
-<div class= "itachi">
+
+	<div class= "minato reverse" style=" justify-content: center; background-color: #70A33C;">
+	<img src="Image/Logo2.png"height=200px> </img>
+	<div class= "minato" style="justify-content: right; max-width: 650px;">
 	
-	<img src="Image/Logo2.png"height=15%> </img>
-	<h1> LEARNING BASKETBALL FUNDAMENTALS </h1>
-	<p style="font-size: 30px;"> Learning basketball fundamentals is a progressive process that involves understanding the core skills, practicing them diligently, and gradually integrating them into game-like situations. It's about building a strong foundation upon which more advanced techniques and strategies can be developed.  </p>
+	
+	
+	
+	
+	
+
+	<h1 style="text-align: right;font-size: 30px;"> LEARNING BASKETBALL FUNDAMENTALS </h1>
+	<p style="font-size: 20px;"> Learning basketball fundamentals is a progressive process that involves understanding the core skills, practicing them diligently, and gradually integrating them into game-like situations. It's about building a strong foundation upon which more advanced techniques and strategies can be developed.  </p>
+	
+
+	</div>
+	</div>
+<center>
+<div style="	background-color: #70A33C; padding: 5px;">
+	<h1 style= "font-family: 'njnaruto', 'sans-serif';"> GET IN TOUCH
+	</h1>
 	<h1> IF YOU LOVE BASKETBALL AS MUCH AS I DO. </h1>
 	<p style="font-size: 30px;"> YOU CAN EMAIL ME TO TALK ABOUT BASKETBALL FUNDAMENTALS. </p>
 	<button class="button-5" role="button">Email Me</button>
-
-
 </div>
+</center>
+	
+
+
+<center>
 <div class= "sakura">
 	
 	<a href="https://www.facebook.com/ong.marks/">FaceBook</a>
 	<a href="https://github.com/aaronmayyy/" >GitHub</a>
 </div>
+</center>
 
 
 	
-</center> 
+
 </body>
 </html>
 
